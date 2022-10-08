@@ -1,0 +1,1 @@
+go build -x -v -ldflags "-s -w" -buildmode=c-shared   -o _fmlib.dll exportFunc.go
